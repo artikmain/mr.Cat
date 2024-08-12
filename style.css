@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap");
+
 li {
   list-style: none;
 }
@@ -5,12 +7,12 @@ ul {
   padding: 0;
 }
 body {
+  font-family: "Raleway", sans-serif;
   background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F1971371.jpg&f=1&nofb=1&ipt=82fda175b2949166fb8af1be17a73daf4aa504b42d44fedcb2e8ea2a29b62af1&ipo=images");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 100px 0;
 }
-
 .container {
   width: 800px;
   min-height: 500px;
