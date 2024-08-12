@@ -1,0 +1,81 @@
+li {
+  list-style: none;
+}
+ul {
+  padding: 0;
+}
+body {
+  background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F1971371.jpg&f=1&nofb=1&ipt=82fda175b2949166fb8af1be17a73daf4aa504b42d44fedcb2e8ea2a29b62af1&ipo=images");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+.container {
+  width: 800px;
+  min-height: 500px;
+  border: 10px solid white;
+  margin: 0 auto;
+  background: white;
+}
+.header {
+  display: flex;
+  height: 150px;
+}
+.title-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  width: 80%;
+  height: 100%;
+  background: url("https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fGNvZGV8ZW58MHx8MHx8fDI%3D");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.userpic {
+  display: flex;
+  width: 20%;
+  height: 100%;
+  background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.m8uGZhwzQpaC3lEMbmDtCQHaEK%26pid%3DApi&f=1&ipt=fef2716accb19a2ccbc01758c89e0b0d1b3c807882c0c8b179db8ef75eee1954&ipo=images");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav ul {
+  display: flex;
+  background: rgb(230, 230, 230);
+  margin: 10 0;
+}
+
+.nav li a {
+  display: flex;
+  padding: 20px;
+  text-decoration: none;
+  color: #404040;
+  font-weight: bold;
+  border-right: 1px solid #d1d1d1;
+}
+.nav li a:hover {
+  background: rgb(196, 196, 196);
+}
+.content-wrapper {
+  display: flex;
+}
+.content {
+  width: 70%;
+  padding: 20px;
+}
+.sidebar {
+  width: 30%;
+  padding: 20px;
+  text-align: right;
+}
+.skills li {
+  padding: 10px 0;
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+.skills li:hover {
+  transform: translateX(10px);
+}
