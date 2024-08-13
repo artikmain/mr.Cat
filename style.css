@@ -57,6 +57,7 @@ body {
   color: #404040;
   font-weight: bold;
   border-right: 1px solid #d1d1d1;
+  transition: background 0.5s ease;
 }
 .nav li a:hover {
   background: rgb(196, 196, 196);
