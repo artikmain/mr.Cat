@@ -66,13 +66,14 @@ body {
   display: flex;
 }
 .content {
-  width: 70%;
+  width: 80%;
   padding: 20px;
+  text-align: justify;
 }
 .sidebar {
-  width: 30%;
+  width: 20%;
   padding: 20px;
-  text-align: right;
+  text-align: center;
 }
 .skills li {
   padding: 10px 0;
